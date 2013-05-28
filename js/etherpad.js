@@ -11,6 +11,7 @@
       'useMonospaceFont'  : false,
       'noColors'          : false,
       'userColor'         : false,
+      'theme'             : false,
       'hideQRCode'        : false,
       'alwaysShowChat'    : false,
       'width'             : 100,
@@ -44,6 +45,7 @@
           iFrameLink = iFrameLink + '&userName=' + settings.userName;
           iFrameLink = iFrameLink + '&noColors=' + settings.noColors;
           iFrameLink = iFrameLink + '&userColor=' + settings.userColor;
+          settings.theme && (iFrameLink = iFrameLink + '&theme=' + settings.theme);
           iFrameLink = iFrameLink + '&hideQRCode=' + settings.hideQRCode;
           iFrameLink = iFrameLink + '&alwaysShowChat=' + settings.alwaysShowChat;
           iFrameLink = iFrameLink +'" style="border:'+settings.border;
