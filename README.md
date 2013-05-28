@@ -27,6 +27,7 @@ The Etherpad jQuery Plugin easily allows you to embed and access a pad from Ethe
 'useMonospaceFont' : false, // Use monospaced fonts
 'noColors'         : false, // Disable background colors on author text
 'userColor'        : false, // The background color of this authors text in hex format IE #000
+'theme'            : false, // The ep\_theme name to use (if installed)
 'hideQRCode'       : false, // Hide QR code
 'alwaysShowChat'   : false, // Always show the chat on the UI
 'width'            : 100, // The width of the embedded IFrame
